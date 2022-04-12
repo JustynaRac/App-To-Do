@@ -1,0 +1,15 @@
+.task {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(253, 253, 253),
+    rgb(251, 251, 251)
+  );
+}
+
+.eachTask {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}

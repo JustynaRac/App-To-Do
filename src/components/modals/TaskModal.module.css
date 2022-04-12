@@ -1,0 +1,80 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  width: 30%;
+  z-index: 100;
+  overflow: hidden;
+  transform: translate(-50%, -30%);
+}
+header {
+  display: flex;
+}
+
+header h2 {
+  position: relative;
+  top: -0.75rem;
+}
+.close-cross {
+  height: 7%;
+  width: 7%;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  cursor: pointer;
+}
+.close-cross:hover {
+  fill: #ff5e0e;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-text label {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.form-text input {
+  font: inherit;
+  font-size: 1.25rem;
+  padding: 0.25rem;
+}
+
+.form-text textarea {
+  font: inherit;
+  font-size: inherit;
+  padding: 0.5rem;
+  resize: none;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-buttons button {
+  margin: 1.5rem 0rem 0 1rem;
+}
+
+.cancel {
+  background-color: #9f9f9f;
+  border-color: #939393;
+}
+
+.warning {
+  font: inherit;
+  font-weight: bold;
+  color: #ff5e0e;
+}

@@ -1,0 +1,56 @@
+.box {
+  border: 1px sloid grey;
+  background: #f2fbff;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  height: 15vmin;
+  pointer-events: none;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  animation: spining_logo 10s infinite;
+}
+
+@keyframes spining_logo {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+.context {
+  font: inherit;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.context h1 {
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+.context label {
+  margin-bottom: 1rem;
+}
+
+.context input {
+  font: inherit;
+  background: white;
+  padding: 0.7rem 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ff4a0e;
+  border-radius: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.context input:focus {
+  outline: none;
+}

@@ -1,0 +1,38 @@
+.card-wrapper {
+  margin: 2rem;
+  padding: 1rem;
+  width: auto;
+}
+.header h2 {
+  font: inherit;
+  font-size: 1.25rem;
+  padding: 0.3rem 1.3rem;
+  margin-top: 1rem;
+  border: 1px solid #fff8f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background: #fff8f5;
+  cursor: default;
+}
+
+.description {
+  height: 8rem;
+  cursor: default;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  height: 8%;
+  width: 8%;
+  margin-left: 5px;
+  cursor: pointer;
+  fill: #ff5e0e;
+}
+
+.logo:hover {
+  fill: #ff4a0e;
+}
